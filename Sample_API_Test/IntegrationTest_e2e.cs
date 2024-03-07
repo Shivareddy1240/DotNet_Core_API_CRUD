@@ -24,7 +24,7 @@ namespace Sample_API.Tests
 
 		public EmployeeControllerIntegrationTests()
 		{
-			_client = new HttpClient { BaseAddress = new Uri("http://localhost:1111/") };
+			_client = new HttpClient { BaseAddress = new Uri("https://localhost:7215/") };
 
 			var configuration = new ConfigurationBuilder()
 				.AddInMemoryCollection(new Dictionary<string, string>
